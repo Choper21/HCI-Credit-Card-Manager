@@ -5,4 +5,4 @@ El user modeling consiste en crear representaciones estructuradas que guíen el 
 Es una representación ficticia de usuarios reales basadas en el user research. 
 
 ### Primary User
-![image](/Primary_User.png)
+![image](Primary_User.png)
