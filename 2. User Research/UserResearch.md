@@ -5,7 +5,7 @@ El objetivo del user research es entender al usuario, su contexto, sus problemas
 Para estructurar la investigación, se definió un conjunto de información requerida que permitirá identificar patrones de comportamiento y necesidades específicas.
 Estos datos incluyen desde el número de tarjetas que manejan los usuarios hasta sus preferencias en notificaciones, pasando por su familiaridad con conceptos financieros, sus métodos actuales de control y las principales dificultades que enfrentan al gestionar sus pagos. 
 
-La fuente principal de información fue la aplicación de encuestas y entrevistas ligeras, ya que permitieron obtener tanto datos cuantitativos (frecuencia de tarjetas, uso de apps financieras, nivel de dificultad percibido) como cualitativos (motivaciones, razones de retraso en pagos, expectativas frente a simultaciones de intereses).
+La fuente principal de información fue la aplicación de [encuestas](https://docs.google.com/spreadsheets/d/1Q7wf03WGnrCDZ25al0RWkHfAu8PdhWTnkij71OSLFrk/edit?gid=396728306#gid=396728306), ya que permitieron obtener tanto datos cuantitativos (frecuencia de tarjetas, uso de apps financieras, nivel de dificultad percibido) como cualitativos (motivaciones, razones de retraso en pagos, expectativas frente a simultaciones de intereses).
 
 ## Información requerida
 
