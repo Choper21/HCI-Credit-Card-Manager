@@ -1,0 +1,54 @@
+# User Research
+El objetivo del user research es entender al usuario, su contexto, sus problemas reales y sus hábitos, para que la solución no se base en suposiciones.
+
+## Estrategia de recoleccion de datos
+Para estructurar la investigación, se definió un conjunto de información requerida que permitirá identificar patrones de comportamiento y necesidades específicas.
+Estos datos incluyen desde el número de tarjetas que manejan los usuarios hasta sus preferencias en notificaciones, pasando por su familiaridad con conceptos financieros, sus métodos actuales de control y las principales dificultades que enfrentan al gestionar sus pagos. 
+
+La fuente principal de información fue la aplicación de encuestas y entrevistas ligeras, ya que permitieron obtener tanto datos cuantitativos (frecuencia de tarjetas, uso de apps financieras, nivel de dificultad percibido) como cualitativos (motivaciones, razones de retraso en pagos, expectativas frente a simultaciones de intereses).
+
+## Información requerida
+
+| ID  | Trazabilidad                                                         | Información                                                                                  | Razón                                                                                                                        |
+|-----|----------------------------------------------------------------------|----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| 1   | Número de tarjetas de crédito de los usuarios                        | Determinar cuántas tarjetas de crédito tiene cada usuario                                   | Identificar la necesidad de una interfaz que permita visualizar múltiples tarjetas y gestionar sus pagos en un solo lugar   |
+| 2   | Familiaridad con conceptos financieros                               | Evaluar el conocimiento de los usuarios sobre términos financieros clave                     | Diseñar una interfaz que evite sobrecargar a los usuarios con información básica y ofrezca detalles según la experiencia     |
+| 3   | Preferencia por pagos completos (totaleros)                          | Conocer si el usuario prefiere pagar el total para evitar intereses                          | Orientar la funcionalidad de la app hacia recordatorios y alertas para totaleros que desean evitar intereses                |
+| 4   | Dificultad en la gestión de pagos                                    | Nivel de dificultad que los usuarios experimentan al gestionar fechas de corte y pago        | Diseñar herramientas de ayuda, recordatorios y alertas que faciliten el proceso de pago, especialmente para los usuarios nuevos |
+| 5   | Uso de herramientas digitales para el control de tarjetas            | Determinar si los usuarios ya utilizan apps financieras                                     | Evaluar la necesidad de educar a los usuarios sobre las funcionalidades de la app y cómo facilita la gestión de tarjetas    |
+| 6   | Razones para no pagar el total o generar intereses                   | Conocer si los usuarios incurren en intereses y por qué                                     | Diseñar alertas y proyecciones de interés que fomenten el pago puntual y completo de los saldos                             |
+| 7   | Métodos actuales de control de pagos                                 | Identificar las herramientas o métodos actuales que usan para llevar control                 | Mejorar la experiencia de usuario al ofrecer una app especializada que elimine la necesidad de múltiples herramientas       |
+| 8   | Necesidad de simulaciones y cálculo de intereses                     | Conocer el interés de los usuarios en simular pagos y visualizar sus intereses generados     | Proporcionar herramientas que permitan a los usuarios visualizar el impacto de sus pagos y fomentar el pago total           |
+| 9   | Preferencia de notificaciones para fechas de pago                    | Identificar la necesidad de recordatorios y alertas específicas de pago                      | Implementar un sistema de notificaciones personalizables que ayuden a los usuarios a evitar atrasos en sus pagos            |
+
+
+## Fuentes de información
+
+| ID  | Trazabilidad                                                         | Fuente                                      | Argumento                                                                                                               |
+|-----|----------------------------------------------------------------------|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| 1   | Número de tarjetas de crédito de los usuarios                        | Respuesta de encuesta                       | Identificar la frecuencia de usuarios con múltiples tarjetas para determinar la necesidad de un control centralizado     |
+| 2   | Familiaridad con conceptos financieros                               | Respuesta de encuesta                       | Conocer el nivel de conocimiento financiero de los usuarios para adaptar la interfaz a diferentes niveles de experiencia |
+| 3   | Preferencia de pago total para evitar intereses                      | Respuesta de encuesta                       | Saber cuántos usuarios prefieren pagar el total para evitar intereses y enfocar la app en funciones para "totaleros"    |
+| 4   | Dificultad en la gestión de fechas de pago                           | Respuesta de encuesta                       | Determinar el grado de dificultad que los usuarios enfrentan para implementar recordatorios y ayudas personalizadas     |
+| 5   | Uso de herramientas digitales para el control de tarjetas            | Respuesta de encuesta                       | Evaluar el conocimiento y uso actual de herramientas digitales para ofrecer una solución especializada                   |
+| 6   | Motivo de generación de intereses                                    | Respuesta de encuesta                       | Identificar razones para no pagar el total y diseñar alertas que ayuden a evitar intereses                              |
+| 7   | Métodos actuales de control de pagos                                 | Respuesta de encuesta                       | Conocer los métodos que usan actualmente los usuarios para mejorar la experiencia de la app y eliminar redundancias     |
+| 8   | Necesidad de simulaciones de intereses                               | Respuesta de encuesta                       | Detectar si los usuarios desean herramientas para simular intereses y fomentar la planificación financiera               |
+| 9   | Preferencia por notificaciones y alertas                             | Respuesta de encuesta                       | Saber si los usuarios prefieren recibir notificaciones de fechas de pago para implementar un sistema de alertas         |
+
+
+
+# Herramientas
+
+
+| ID  | Trazabilidad                                                         | Herramienta                          | Definición                                                                                           | Argumento                                                                                                                |
+|-----|----------------------------------------------------------------------|--------------------------------------|------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| 1   | Número de tarjetas de crédito de los usuarios                        | Interfaz de tarjetas múltiples       | Vista consolidada de todas las tarjetas del usuario                                                  | Facilita la gestión de varias tarjetas en un solo lugar                                                                  |
+| 2   | Familiaridad con conceptos financieros                               | Glosario financiero interactivo      | Explicación de términos como "Fecha de corte", "Pago total", etc.                                    | Ayuda a usuarios con distintos niveles de experiencia a entender mejor su situación financiera                           |
+| 3   | Preferencia de pago total para evitar intereses                      | Recordatorios de pago completo       | Alertas que notifican sobre el monto total necesario para evitar intereses                           | Apoya a los "totaleros" en su objetivo de no generar intereses                                                           |
+| 4   | Dificultad en la gestión de fechas de pago                           | Calendario de pagos                  | Calendario que destaca fechas de corte y pago                                                         | Organiza las fechas importantes, reduciendo la probabilidad de pagos tardíos                                             |
+| 5   | Uso de herramientas digitales para el control de tarjetas            | Plataforma de administración móvil   | Aplicación móvil para gestión centralizada de tarjetas                                                | Proporciona una herramienta digital especializada que los usuarios actuales pueden no estar utilizando                   |
+| 6   | Motivo de generación de intereses                                    | Proyecciones de interés              | Simulación del interés generado si no se paga el total                                               | Informa sobre el costo de no pagar el total, incentivando un mejor control financiero                                    |
+| 7   | Métodos actuales de control de pagos                                 | Registro de pagos                    | Herramienta para guardar el historial de pagos                                                        | Sustituye métodos actuales y manuales por una herramienta que permite ver pagos previos en la misma app                  |
+| 8   | Necesidad de simulaciones de intereses                               | Calculadora de pagos y deuda         | Calculadora que simula el impacto de distintos montos de pago sobre la deuda                          | Ayuda a los usuarios a planificar pagos y visualizar cómo reducir su deuda                                                |
+| 9   | Preferencia por notificaciones y alertas                             | Sistema de alertas personalizado     | Notificaciones configurables para fechas de corte y pago                                              | Permite a los usuarios recibir recordatorios personalizados, evitando así cargos por intereses y atrasos                 |
