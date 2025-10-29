@@ -14,7 +14,7 @@ La aplicación proporcionará **gestión de cuentas, gestión de perfiles de tar
 
 * **HCI:** Human-Computer Interaction
 * **SRS:** Software Requirements Specification
-* **WCAG:** [Web Content Accessibility Guidelines ] (https://www.w3.org/TR/WCAG21/#sotd)
+* **WCAG:** [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/#sotd)
 * **RF / RNF:** Requisito Funcional / No Funcional
 * **CRUD:** Create, Read, Update, Delete
 * **PCI-DSS:** Payment Card Industry Data Security Standard
