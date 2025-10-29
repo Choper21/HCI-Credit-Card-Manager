@@ -106,7 +106,7 @@ Aplicación autónoma (móvil) para la gestión financiera personal, enfocada en
 
 ## 4. Anexos
 
-* **Anexo A: Casos de Uso Detallados:** (Incluir precondiciones, flujos principales y alternativos para RF03, RF05, RF06).
+* **Anexo A:** (Casos de Uso Detallados)[UseCases.md]
 * **Anexo B: Mockups y Prototipos de UI/UX:** (Referencia a artefactos de diseño).
 * **Anexo C: Diagrama de Flujo de Interacción:** (Diagramas de navegación).
 * **Anexo D: Modelo de Datos:** (Diagrama Entidad-Relación: Usuarios, Tarjetas, Movimientos, Categorías).
