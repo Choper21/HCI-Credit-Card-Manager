@@ -1,4 +1,4 @@
-# 💳 HCI Credit Card Manager — Documento de Especificación de Requisitos (SRS) - IEEE 830 (Versión Ampliada en Markdown)
+# HCI Credit Card Manager — Documento de Especificación de Requisitos (SRS) - IEEE 830 (Versión Ampliada en Markdown)
 
 ## 1. Introducción
 
