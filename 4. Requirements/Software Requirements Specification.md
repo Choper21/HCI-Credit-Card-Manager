@@ -1,4 +1,4 @@
-# 💳 HCI Credit Card Manager — Documento de Especificación de Requisitos (SRS) - IEEE 830 (Versión Ampliada en Markdown)
+# HCI Credit Card Manager — Documento de Especificación de Requisitos (SRS) - IEEE 830 (Versión Ampliada en Markdown)
 
 ## 1. Introducción
 
@@ -14,7 +14,7 @@ La aplicación proporcionará **gestión de cuentas, gestión de perfiles de tar
 
 * **HCI:** Human-Computer Interaction
 * **SRS:** Software Requirements Specification
-* **WCAG:** Web Content Accessibility Guidelines
+* **WCAG:** [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/#sotd)
 * **RF / RNF:** Requisito Funcional / No Funcional
 * **CRUD:** Create, Read, Update, Delete
 * **PCI-DSS:** Payment Card Industry Data Security Standard
@@ -96,7 +96,6 @@ Aplicación autónoma (móvil) para la gestión financiera personal, enfocada en
 | **RNF06** | **Rendimiento** | La carga de pantallas (transiciones) y el historial deben completarse en **$<$ 2 segundos** con hasta 1000 registros. | Alta |
 | **RNF07** | **Seguridad** | Comunicación cliente-servidor exclusivamente sobre **HTTPS (TLS 1.3)**. | Alta |
 | RNF07.1 | Seguridad | **Prohibición estricta** de almacenar PAN y CVV. | Crítica |
-| RNF07.2 | Seguridad | Contraseñas con **bcrypt** (costo $\geq$ 12). | Alta |
 | RNF07.4 | Seguridad | (Móvil) Requerir autenticación biométrica/PIN al reanudar la app desde el fondo (después de 5 min). | Media |
 | **RNF08** | **Compatibilidad** | (Web) Compatible con las **2 últimas versiones** de Chrome, Firefox, Safari. | Alta |
 | RNF08.2 | Compatibilidad | Diseño **responsive** y adaptable desde móvil (360px) hasta escritorio (1920px). | Alta |
@@ -107,7 +106,7 @@ Aplicación autónoma (móvil) para la gestión financiera personal, enfocada en
 
 ## 4. Anexos
 
-* **Anexo A: Casos de Uso Detallados:** (Incluir precondiciones, flujos principales y alternativos para RF03, RF05, RF06).
+* **Anexo A:** [Casos de Uso Detallados](UseCases.md)
 * **Anexo B: Mockups y Prototipos de UI/UX:** (Referencia a artefactos de diseño).
 * **Anexo C: Diagrama de Flujo de Interacción:** (Diagramas de navegación).
 * **Anexo D: Modelo de Datos:** (Diagrama Entidad-Relación: Usuarios, Tarjetas, Movimientos, Categorías).
