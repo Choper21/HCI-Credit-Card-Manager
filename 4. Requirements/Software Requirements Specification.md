@@ -96,7 +96,6 @@ Aplicación autónoma (móvil) para la gestión financiera personal, enfocada en
 | **RNF06** | **Rendimiento** | La carga de pantallas (transiciones) y el historial deben completarse en **$<$ 2 segundos** con hasta 1000 registros. | Alta |
 | **RNF07** | **Seguridad** | Comunicación cliente-servidor exclusivamente sobre **HTTPS (TLS 1.3)**. | Alta |
 | RNF07.1 | Seguridad | **Prohibición estricta** de almacenar PAN y CVV. | Crítica |
-| RNF07.2 | Seguridad | Contraseñas con **bcrypt** (costo $\geq$ 12). | Alta |
 | RNF07.4 | Seguridad | (Móvil) Requerir autenticación biométrica/PIN al reanudar la app desde el fondo (después de 5 min). | Media |
 | **RNF08** | **Compatibilidad** | (Web) Compatible con las **2 últimas versiones** de Chrome, Firefox, Safari. | Alta |
 | RNF08.2 | Compatibilidad | Diseño **responsive** y adaptable desde móvil (360px) hasta escritorio (1920px). | Alta |
