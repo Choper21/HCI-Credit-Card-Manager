@@ -4,26 +4,25 @@
 
 ## **1. Información General**
 - **Proyecto:** HCI Credit Card Manager  
-- **ID de Sesión:** [ ]  
-- **Fecha:** [ ]  
-- **Facilitador:** [ ]  
-- **Código del Participante (P01, P02…):** [ ]  
-- **Duración:** [ ]  
+- **ID de Sesión:** [UT01]  
+- **Fecha:** [25/11/2025]  
+- **Código del Participante:** [P01]  
+- **Duración:** [6:21]  
 - **Grabación Realizada:**  
-  - [ ] Sí  
+  - [x] Sí  
   - [ ] No  
 
 ---
 
 ## **2. Perfil del Participante**
 - [ ] Nivel básico de herramientas digitales  
-- [ ] Nivel intermedio  
+- [x] Nivel intermedio  
 - [ ] Nivel avanzado  
 - **Uso previo de apps financieras:**  
-  - [ ] Sí  
+  - [x] Sí  
   - [ ] No  
 - **Notas relevantes (opcional):**  
-  - [ ]  
+  - [nunca ha usado tarjeta de crédito ]  
 
 ---
 
@@ -37,13 +36,13 @@
 *"Por favor, regístrate en la aplicación utilizando tu correo electrónico actual."*
 
 - **Resultado:**  
-  - [ ] Éxito  
+  - [x] Éxito  
   - [ ] Fallo  
 - **Errores de validación:** [ ]  
-- **Tiempo:** [ ]  
-- **Puntaje SEQ (1–7):** [ ]  
+- **Tiempo:** [00:25]  
+- **Puntaje SEQ (1–7):** [7]  
 - **Observaciones:**  
-  - [ ]  
+  - [el usuario sugiere la idea de incluir inicio de sesión vía externos (gmail, apple, outlook)]  
   - [ ]  
 
 ---
@@ -54,16 +53,16 @@
 *"Agrega una nueva tarjeta de tipo 'Visa Oro'. Configura un límite de crédito de $50,000. Antes de guardar, verifica que lo que ingresaste es correcto."*
 
 - **Verificó previsualización?**  
-  - [ ] Sí  
+  - [x] Sí  
   - [ ] No  
 - **Resultado:**  
-  - [ ] Éxito  
+  - [x] Éxito  
   - [ ] Fallo  
-- **Tiempo:** [ ]  
-- **SEQ:** [ ]  
+- **Tiempo:** [1:35]  
+- **SEQ:** [5]  
 - **Observaciones:**  
-  - [ ]  
-  - [ ]  
+  - [El usuario no conocía el término de fecha de corte y fecha de pago]  
+  - [El usuario lee en inglés términos que no conoce lo cual dificulta la tarea]  
 
 ---
 
@@ -74,12 +73,12 @@
 
 - **Clicks/Toques:** [ ]  
 - **Resultado (< 4 clics):**  
-  - [ ] Cumplido  
-  - [ ] No cumplido  
-- **Tiempo:** [ ]  
-- **SEQ:** [ ]  
+  - [] Cumplido  
+  - [x] No cumplido  
+- **Tiempo:** [01:20]  
+- **SEQ:** [7]  
 - **Observaciones:**  
-  - [ ]  
+  - [ingresar manualmente la cantidad puede llegar a ser cansado para el usuario]  
   - [ ]  
 
 ---
@@ -90,13 +89,13 @@
 *"Intenta editar la tarjeta y cambia el límite de crédito a '-500'. Observa la respuesta del sistema y realiza la acción necesaria para corregirlo."*
 
 - **Comprendió el mensaje de error?**  
-  - [ ] Sí  
+  - [x] Sí  
   - [ ] No  
 - **Corrigió sin ayuda?**  
-  - [ ] Sí  
+  - [x] Sí  
   - [ ] No  
-- **Tiempo:** [ ]  
-- **SEQ:** [ ]  
+- **Tiempo:** [00:20]  
+- **SEQ:** [7]  
 - **Observaciones:**  
   - [ ]  
   - [ ]  
@@ -106,38 +105,34 @@
 ## **4. Resumen Cuantitativo (ISO 9241-11)**
 
 - **Tasa de éxito (efectividad):**  
-  - [ ] %  
+  - [75] %  
 - **Promedio de tiempo por tarea (eficiencia):**  
-  - [ ] seg  
+  - [55] seg  
 - **Promedio SEQ (satisfacción):**  
-  - [ ] / 7  
+  - [6.5] / 7  
 - **Errores críticos encontrados:**  
-  - [ ]  
+  - [Ninguno reportado]  
 
 ---
 
 ## 🔍 **5. Hallazgos Clave**
 ### **🟥 Problemas Críticos**
-- [ ]  
+- [El desconocimiento de términos financieros clave (“fecha de corte”, “fecha de pago”) afecta tareas básicas]  
 
 ### **🟧 Problemas Importantes**
-- [ ]  
+- [Términos en inglés dentro de la interfaz generan fricción y ralentizan el proceso]  
 
 ### **🟨 Problemas Menores**
-- [ ]  
+- [Ingreso manual de cantidades puede resultar tedioso para operaciones rápidas]  
 
 ---
 
 ## **6. Recomendaciones**
-- [ ]  
-- [ ]  
-- [ ]  
-
+- [Incorporar glosarios contextuales o tooltips para términos financieros]  
+- [agregar opciones de idiomas en la interfaz]  
+- [Agregar teclados numéricos o shortcuts para registrar transacciones más rápido] 
 ---
 
 ## **7. Evidencia**
-- **Grabación:** [ ]  
-- **Notas / Capturas:**  
-  - [ ]  
-
+- **Grabación:** [https://drive.google.com/file/d/1hKERQhyYlVvMApoA7W4LZeUra0tR0yZC/view?usp=drive_link]  
 ---
